@@ -3,7 +3,6 @@ package day01
 import "fmt"
 
 func Pointer() {
-
 	var n int = 99
 	fmt.Println("int类型变量n的地址：", &n)
 	//int指针
@@ -13,7 +12,7 @@ func Pointer() {
 	p = &n
 	fmt.Println("指针变量p的值是：", p)
 
-	fmt.Println("____________________________通过指针修改n的值")
+	fmt.Println("______________通过指针修改n的值______________")
 	*p = 100
 	fmt.Println("指针重新赋值之后，n的值：", n)
 

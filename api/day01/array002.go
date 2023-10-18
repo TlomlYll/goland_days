@@ -1,13 +1,11 @@
-// 使用指针变量获取命令行输入信息
-package main
+package day01
 
-import (
-	"fmt"
-)
+import "fmt"
 
+// const 定义常量，不可修改，类比java中的final
 const N = 10
 
-func main() {
+func array002() {
 
 	var intArr [3]int
 	var stringArr [3]string
